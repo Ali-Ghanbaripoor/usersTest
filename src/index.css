@@ -1,0 +1,145 @@
+body {
+  background-color: #464640;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "iransans";
+  font-style: "normal";
+  src: url(./assets/fonts/iransans/IRANSansWeb.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "DigitalDisplay";
+  font-style: "normal";
+  src: url(./assets/fonts/digital/digital-7.ttf) format("truetype");
+}
+
+/* `react-simple-keyboard` style configurations */
+.imageWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.hg-theme-default {
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  overflow: hidden;
+  touch-action: manipulation;
+}
+
+.hg-theme-default .hg-button span {
+  pointer-events: none;
+  font-size: x-large;
+}
+
+.hg-theme-default button.hg-button {
+  border-width: 0;
+  outline: 0;
+  font-size: inherit;
+}
+
+.hg-theme-default {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hg-theme-default .hg-button {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.hg-theme-default .hg-row {
+  display: flex;
+}
+
+.hg-theme-default .hg-row:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.hg-theme-default .hg-row .hg-button-container,
+.hg-theme-default .hg-row .hg-button:not(:last-child) {
+  margin-right: 5px;
+}
+
+.hg-theme-default .hg-row > div:last-child {
+  margin-right: 0;
+}
+
+.hg-theme-default .hg-row .hg-button-container {
+  display: flex;
+}
+
+.hg-theme-default .hg-button {
+  color: #1f1f1f;
+  font-weight: 300;
+  box-shadow: 0 0 3px -1px rgba(255, 255, 255, 0.3);
+  height: 70px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+  background: #ebe8e8;
+  border-bottom: 1px solid #ffc107;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.hg-theme-default .hg-button.hg-activeButton {
+  color: #fff;
+  background: #c29306;
+}
+
+.hg-theme-default.hg-layout-numeric .hg-button {
+  width: 33.3%;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.hg-theme-default .hg-button.hg-button-numpadadd,
+.hg-theme-default .hg-button.hg-button-numpadenter {
+  height: 95px;
+}
+
+.hg-theme-default .hg-button.hg-button-numpad0 {
+  width: 105px;
+}
+
+.hg-theme-default .hg-button.hg-button-com {
+  max-width: 85px;
+}
+
+.hg-theme-default .hg-button.hg-standardBtn.hg-button-at {
+  max-width: 45px;
+}
+
+.hg-theme-default .hg-button.hg-selectedButton {
+  background: rgba(5, 25, 70, 0.53);
+  color: #ccc;
+}
+
+.hg-theme-default .hg-button.hg-standardBtn[data-skbtn=".com"] {
+  max-width: 82px;
+}
+
+.hg-theme-default .hg-button.hg-standardBtn[data-skbtn="@"] {
+  max-width: 60px;
+}
+
+.react-toast {
+  font-family: "iransans";
+}

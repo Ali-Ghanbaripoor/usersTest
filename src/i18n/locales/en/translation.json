@@ -1,0 +1,627 @@
+{
+  "language": {
+    "language": "Language",
+    "system": "Language",
+    "english": "English",
+    "persian": "فارسی"
+  },
+  "alarms": {
+    "alarmsLabel": "Alarms",
+    "unknown": "Unknown",
+    "clear": "Clear alarms"
+  },
+  "radioactive": {
+    "label": "Radioactive",
+    "status": {
+      "waiting": "Waiting",
+      "clean": "Clean",
+      "moderate": "Moderate",
+      "severe": "Severe",
+      "alarm": "Alarm",
+      "idle": "Idle",
+      "default": "-"
+    },
+    "powerState": {
+      "on": "Radioactive Power on",
+      "off": "Radioactive Power off",
+      "error": "Can't change state of radioactive"
+    }
+  },
+  "settings": {
+    "profile": "Profile",
+    "dangerZone": "Danger zone",
+    "powerOff": "Power off",
+    "powerOffDialog": {
+      "title": "System Power off",
+      "content": "Are you want to shuting down Walkin system?"
+    },
+    "userPreferences": {
+      "title": "Preferences",
+      "edit": {
+        "password": {
+          "navigatedButton": "Change password",
+          "title": "Password",
+          "content": "You change and submit your new password to next authentication",
+          "yup": {
+            "required": {
+              "newPassword": "New password is required",
+              "confirmNewPassword": "Confirm new password is required"
+            },
+            "oneOf": "New password and its confirmation aren't match."
+          },
+          "fields": {
+            "newPassword": "Enter new password",
+            "confirmNewPassword": "Confirm new password"
+          },
+          "submit": "Update password",
+          "toasts": {
+            "success": "Password changed successfully.",
+            "error": "Password can't changed.",
+            "exists": "New password already exists.",
+            "serverIssue": "Password not send to server. Please call with service provider."
+          }
+        }
+      },
+      "systemVersion": {
+        "title": "System Version",
+        "platforms": {
+          "ai": "AI",
+          "hardware": "Hardware",
+          "reconstruction": "Reconstruction",
+          "software": "Software"
+        }
+      }
+    },
+    "logout": {
+      "error": "Can't perform user authentication logout",
+      "dialog": {
+        "title": "Logout from account",
+        "content": "Are you want to logout from your account?"
+      }
+    }
+  },
+  "tableSettings": {
+    "rowsPerPage": "Rows Per Page"
+  },
+  "errorHandler": {
+    "403": "403 | Access denied, you can't see this view",
+    "404": "404 | Page not found",
+    "500": "CSR Error 500 | Something went wrong",
+    "backToHome": "Return to scan screen"
+  },
+  "init": {
+    "systemError": "Server can't respond",
+    "footer": {
+      "developerInfo": "Developed by Basir Technologies & PCI at 2023"
+    }
+  },
+  "fingerprint": {
+    "title": "Title",
+    "content": "Content",
+    "rescan": "Try again"
+  },
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "login": "Log in",
+    "alert_message": "Username or password is not valid",
+    "fingerprint": {
+      "fingerprintAuth": "Authenticate using fingerprint",
+      "dialog": {
+        "title": "Authenticate using fingerprint",
+        "content": "Waiting for fingerprint input"
+      },
+      "serverError": "Problem connecting to fingerprint module."
+    },
+    "userData": {
+      "error": "Can't get authorized user data"
+    },
+    "loginForm": {
+      "required": {
+        "username": "Username required",
+        "password": "Password required"
+      }
+    },
+    "wait": "System is booting, please wait",
+    "logout": "Logout"
+  },
+  "navbar": {
+    "scan": "Scan",
+    "results": "Results",
+    "Radioactive":"Radioactive",
+    "scannedList": "Scanned List",
+    "healthCheck": "Health Check",
+    "users": "Users",
+    "settings": "Settings"
+  },
+  "actions": {
+    "agree": "Agree",
+    "close": "Close",
+    "cancel": "Cancel",
+    "start": "Start",
+    "stop": "Stop",
+    "done": "Done",
+    "reset": "Reset",
+    "tryAgain": "Try again",
+    "save": "Save",
+    "update": "Update",
+    "callToSupport": "Call support",
+    "shutDown": "Shut down",
+    "reload": "reload"
+  },
+  "scan": {
+    "calibrationNeeded": "You can't start process, please perform calibration at Health Check tab",
+    "reScan": "Re-scan",
+    "radioactive": {
+      "error": "Can't fetch new data with server to radioactive status gathering"
+    }
+  },
+  "results": {
+    "reconstructed": "Reconstructed",
+    "ai": "AI Enhanced",
+    "error": {
+      "images": "Error in image preparation"
+    },
+    "info": {
+      "empty": "Results images is not available"
+    },
+    "censor": {
+      "tooltip": "Censor point",
+      "enableCensorButton": "Enable censor",
+      "disableCensorButton": "Disable censor"
+    },
+    "simpleAndEnhancedSwitch": {
+      "switchToEnhanced": "Switch to Enhanced",
+      "switchToSimple": "Switched to Simple"
+    },
+    "resultImageFilterButton": "Apply filter"
+  },
+  "detector":{
+    "scanResultData":"Scan Result Data",
+    "fileds":"Fileds/Name",
+    "refresh":"Refresh",
+    "loadCSV":"Load CSV",
+    "CSVlist":"CSV List",
+    "name":{
+      "number":{
+        "one":"Detector One",
+        "two":"Detector Two",
+        "three":"Detector Three",
+        "four":"Detector Four"
+      }
+    },
+    "Data":{
+      "name":"Scan Result Data",
+      "detector_address":"Detector Address",
+      "mean_background":"Mean Background",
+      "background_fluctuation":"Background Fluctuation",
+      "instant_background_to_calibration_time":"Bg Calib Time Fluc",
+      "processed_instant_background":"Processed Background",
+      "raw_instant_background":"Raw Background",
+      "PMT_temperature":"Temperature",
+      "HV":"HV",
+      "instant_MDA":"MDA",
+      "mean_MDA":"Mean MDA",
+      "MDA_flutuation":"MDA Fluctuation"
+    },
+    "scanData":{
+      "name":"Scan Data",
+      "background_CPS":"Background",
+      "scan_CPS":"Scan CPS",
+      "temperature":"Temperature",
+      "CPS_fluctuation":"CPS Fluctuation",
+      "packet_ID":"Packet ID"
+    },
+    "MDA_data":{
+      "name":"MDA Data",
+      "scan_MDA":"MDA",
+      "scan_MDA_Fluctuation":"MDA Fluctuation"
+    },
+    "statusData":{
+      "name":"Detector Status",
+      "detector0":"Detector_0",
+      "detector1":"Detector_1",
+      "detector2":"Detector_2",
+      "detector3":"Detector_3"
+    },
+    "backgroundData":{
+      "name":"Background Data",
+      "total_MDA_fluctuation":"Total_MDA_Fluctuation",
+      "total_instant_MDA":"Total_MDA"
+    }
+  },
+  "resultImageFilter": {
+    "back": "Back to Results tab",
+    "filterButtonLabel": "Filter selected tiles",
+    "clearButtonLabel": "Try filter again",
+    "filterRequestError": "Apply filter error"
+  },
+  "scannedList": {
+    "table": {
+      "title": "Scanned List",
+      "row": "Row",
+      "threat": "Threat",
+      "gamma":"Gamma",
+      "gender": "Gender",
+      "imagePath": "Image",
+      "personalCode": "Personnel code",
+      "role": "Role",
+      "processResult": "Process result",
+      "username": "Username",
+      "deletedAt": "Deleted at",
+      "createdAt": "Created at"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "threat": {
+      "safe": "Safe",
+      "threat": "Threat"
+    },
+    "process": {
+      "success": "Successful",
+      "failed": "Failed"
+    },
+    "data": {
+      "empty": "Scanned list is empty.",
+      "serverError": "Server error during fetch data."
+    }
+  },
+  "health_check": {
+    "systemCapacities": "System condition",
+    "systemCapacitiesSubhead": "",
+    "capacities": {
+      "disk_space": "Disk space",
+      "img_quality": "Image Quality"
+    },
+    "specifications": {
+      "na": "N/A",
+      "refresh": "Need to refresh",
+      "medium": "Medium",
+      "healthy": "Healthy"
+    },
+    "capacitiesError": "Can't fetch system condition",
+    "calibrationsResult": {
+      "success": {
+        "calibration": "Calibration has been successful",
+        "clutter": "Clutter has been successful",
+        "homingMotor": "Homing motor has been successful"
+      },
+      "failure": "Service can't perform calibrations",
+      "out": "Server not respond"
+    },
+    "calibrations": {
+      "calibration": {
+        "button": "Calibration",
+        "headline": "Calibration",
+        "subhead": "System calibration",
+        "dialog": {
+          "title": "System calibration",
+          "content": "Are you sure you want to perform calibration?"
+        }
+      },
+      "airCalibration": {
+        "dialog": {
+          "title": "Free space calibration",
+          "content": "Please remove the wooden plate"
+        }
+      },
+      "metalCalibration": {
+        "dialog": {
+          "title": "Metal calibration",
+          "content": "Please remove the wooden plate and place the metal cylinder at the marked position on the surface"
+        }
+      },
+      "clutter": {
+        "button": "Clutter",
+        "headline": "Clutter",
+        "subhead": "Please place the wooden plate in the system and distance yourself from the device.",
+        "dialog": {
+          "title": "Clutter",
+          "content": "Are you sure you want to perform clutter?"
+        }
+      },
+      "homingMotor": {
+        "button": "Motor Homing",
+        "headline": "Motor Homing",
+        "subhead": "",
+        "dialog": {
+          "title": "Motor Homing",
+          "content": "Are you sure you want to perform motor homing?"
+        }
+      }
+    }
+  },
+  "gender": {
+    "man": "Man",
+    "woman": "Woman",
+    "select": {
+      "selectGender": "Select gender type",
+      "man": "Show Man",
+      "woman": "Show Woman",
+      "both": "Show both"
+    }
+  },
+  "passwordBox": {
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "keyboard": {
+    "ok": "OK"
+  },
+  "usersView": {
+    "empty": "User list is empty",
+    "fetchError": "Error in users list data fetching",
+    "preparation": {
+      "fetchError": "Can't get users"
+    },
+    "removal": {
+      "success": "User remove successfully",
+      "failed": "User removal action was failed"
+    },
+    "fab": {
+      "userAdd": "Add a User"
+    },
+    "deleteDialog": {
+      "title": "User Removal",
+      "content": "Are you sure you want to delete this user?"
+    },
+    "tooltips": {
+      "deleteUser": "Delete user",
+      "userDetails": "See and edit"
+    },
+    "fingerprint": {
+      "scanFingerprint": "Submit your fingerprint",
+      "add": "Add new fingerprint",
+      "change": "Change your fingerprint",
+      "successfulRegister": "Fingerprint submitted successfully",
+      "removeTooltipLabel": "Remove fingerprint",
+      "registerTooltipLabel": "Register fingerprint",
+      "changeTooltipLabel": "Change fingerprint",
+      "deleteFingersDialog": {
+        "title": "Remove fingerprint",
+        "content": "Are you sure you want to delete the fingerprint of this user?"
+      },
+      "removeFingers": {
+        "success": "Fingerprint removed successfully",
+        "failed": "Can't remove fingerprint",
+        "serverError": "Problem connecting to fingerprint module."
+      }
+    }
+  },
+  "usersTable": {
+    "title": "Users",
+    "row": "Row",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "role": "Role",
+    "username": "Username",
+    "phone": "Phone",
+    "createdAt": "Created at",
+    "lastUpdate": "Last updated at",
+    "actions": "Actions"
+  },
+  "userModifications": {
+    "userForm": {
+      "f_name": "First name",
+      "l_name": "Last name",
+      "username": "Username",
+      "password": "Password",
+      "email": "Email",
+      "phone": "Phone",
+      "national_code": "National identification number",
+      "personal_code": "Personnel code",
+      "rolesLabel": "Roles",
+      "regex": {
+        "email": "You must enter valid Email. example@sightence.co",
+        "phone": "You must enter valid Phone number. 09123456789"
+      },
+      "roles": {
+        "superuser": "Superuser",
+        "admin": "Admin",
+        "staff": "Staff",
+        "errors": {
+          "fetchError": "Can't get user roles"
+        }
+      },
+      "formValidations": {
+        "required": "This Field is required",
+        "fName": {
+          "max": "Maximum length of characters is 30"
+        },
+        "lName": {
+          "max": "Maximum length of characters is 30"
+        },
+        "username": {
+          "max": "Maximum length of characters is 32"
+        },
+        "password": {
+          "max": "Maximum length of characters is 16"
+        },
+        "email": {
+          "max": "Maximum length of characters is 100",
+          "regex": "Email would be like: example@service.com"
+        },
+        "phone": {
+          "max": "Maximum length of characters is 13",
+          "regex": "Phone number would be like: 09123456789"
+        },
+        "nationalCode": {
+          "max": "Maximum length of characters is 10"
+        },
+        "personalCode": {
+          "max": "Maximum length of characters is 12"
+        }
+      },
+      "duplicatedLabel": "Duplicate data",
+      "duplicatedInfo": "This field info is duplicate, please use new info.",
+      "register": {
+        "success": "You have registered a new user."
+      },
+      "update": {
+        "success": "User data updated successfully"
+      },
+      "errors": {
+        "format": {
+          "national": "National code format is not correct.",
+          "phone": "Phone number format is not correct.",
+          "email": "Email format is not correct."
+        },
+        "duplication": {
+          "username": "Username already exists.",
+          "email": "Email already exists.",
+          "nationalCode": "National code already exists.",
+          "personalCode": "Personnel code already exists.",
+          "phone": "Phone number already exists."
+        }
+      }
+    }
+  },
+  "errors": {
+    "systemError": {
+      "calibration": {
+        "stability": {
+          "sectionStability1": "Calibration quality is low. Please perform calibration. (code 101)",
+          "sectionStability2": "Calibration quality is low. Please perform calibration. (code 102)",
+          "sectionStability3": "Calibration quality is low. Please perform calibration. (code 103)"
+        },
+        "depth": {
+          "sectionDepth1": "Calibration quality is low. Please perform calibration. (code 104)",
+          "sectionDepth2": "Calibration quality is low. Please perform calibration. (code 105)",
+          "sectionDepth3": "Calibration quality is low. Please perform calibration. (code 106)"
+        },
+        "date": {
+          "outDated": "Calibration is outdated. Please perform calibration. (code 107)"
+        },
+        "imgQuality": {
+          "badImg": "Image quality is low. Please perform calibration. (code 401)"
+        }
+      },
+      "clutter": {
+        "clutterQualitySection1": "Clutter quality is low. Please perform clutter. (code 201)",
+        "clutterQualitySection2": "Clutter quality is low. Please perform clutter. (code 202)",
+        "clutterQualitySection3": "Clutter quality is low. Please perform clutter. (code 203)"
+      },
+      "section": {
+        "powerSection1": "Hardware problem. Please contact support. (code 301)",
+        "powerSection2": "Hardware problem. Please contact support. (code 302)",
+        "powerSection3": "Hardware problem. Please contact support. (code 303)"
+      },
+      "position": {
+        "postureViolated": "Standing posture is not correct. Please scan again. (code 501)"
+      },
+      "motor": {
+        "motorHoming": "Please perform motor homing. (code 601)",
+        "disconnection" : "Emergency Button is Activated. (code 602)"
+      },
+      "disk": {
+        "diskLimit": "Disk is full. Please contact support. (code 701)"
+      },
+      "auth": {
+        "authFailed": "Wrong Username or Password. (code 1201)",
+        "expToken": "Token is expired. (code 1202)",
+        "reqToken": "Token is required. (code 1203)",
+        "InvToken": "Token is invalid. (code 1204)",
+        "AccessDenied": "Access denied. (code 1205)",
+        "fingerprint": {
+          "unAuthorized": "Fingerprint not found. (code 1301)",
+          "timeout": "Request timed out. (code 1302)",
+          "failed": "Request failed. (code 1304)",
+          "register": {
+            "databaseOverflow": "Database is full. Please remove a user's fingerprint. (code 1303)"
+          }
+        }
+      }
+    },
+    "exception": {
+      "baseErrors":{
+        "coreCrash" : "System Failure. (code 1)",
+        "badRequest": "Invalid request. (code 2)",
+        "healthCheck": "Health Check data Unavailable. (code 3)",
+        "resultImage": "Result Images are Unavailable. (code 4)",
+        "passwordChange" : "Could not Change Password. (code 5)"
+      },
+      "hardwareDisconnect": {
+        "initConnection": "Problem connecting to hardware. Please contact support. (code 801)",
+        "packetLoss": "Problem connecting to hardware. Please contact support. (code 802)",
+        "sendingCmdFailed": "Problem connecting to hardware. Please contact support. (code 803)",
+        "receivingCmdFailed": "Problem connecting to hardware. Please contact support. (code 804)",
+        "invalidBuffer": "Problem connecting to hardware. Please contact support. (code 805)",
+        "simulatorFailed": "Problem connecting to hardware. Please contact support. (code 806)",
+        "ACPowerInitFailed": "Problem connecting to hardware. Please contact support. (code 807)",
+        "ACPowerCmdFailed": "Hardware connection problem. Please contact support. (code 808)",
+        "fingerprint": "Fingerprint module is not responding. (code 809)"
+      },
+      "memory": {
+        "initDll": "Memory error. Please contact support. (code 901)",
+        "nnInput": "Memory error. Please contact support. (code 902)",
+        "maskNetwork": "Memory error. Please contact support. (code 903)",
+        "maskReduction": "Memory error. Please contact support. (code 904)",
+        "pytorchRes": "Memory error. Please contact support. (code 905)",
+        "healthMetrics": "Memory error. Please contact support. (code 906)",
+        "startThread": "Memory error. Please contact support. (code 907)",
+        "reconstruct": "Memory error. Please contact support. (code 908)",
+        "fetchReconstructed": "Memory error. Please contact support. (code 909)",
+        "memBlock": "Memory error. Please contact support. (code 910)",
+        "imgMetrics": "Memory error. Please contact support. (code 911)",
+        "secMetrics": "Memory error. Please contact support. (code 912)",
+        "gpuDispose": "Memory error. Please contact support. (code 913)",
+        "directBitmap": "Memory error. Please contact support. (code 914)",
+        "censorApply": "Memory error. Please contact support. (code 915)",
+        "processCalibration": "Memory error. Please contact support. (code 916)",
+        "getCalibrationMetrics": "Memory error. Please contact support. (code 917)",
+        "poseEstimationNetwork": "Memory error. Please contact support. (code 918)"
+      },
+      "fileSystem": {
+        "readCalibrationOrClutter": "FileSystem error. Please contact support. (code 1001)",
+        "ldAIModel": "FileSystem error. Please contact support. (code 1002)",
+        "mkDir": "FileSystem error. Please contact support. (code 1003)",
+        "mkLogFile": "FileSystem error. Please contact support. (code 1004)",
+        "dllHeaders": "FileSystem error. Please contact support. (code 1005)",
+        "diskImageSave": "FileSystem error. Please contact support. (code 1006)",
+        "cpFile": "FileSystem error. Please contact support. (code 1007)",
+        "wrFaultRates": "FileSystem error. Please contact support. (code 1008)",
+        "readClutterMetrics": "FileSystem error. Please contact support. (code 1009)",
+        "wrSectionMetrics": "FileSystem error. Please contact support. (code 1010)",
+        "saveHolo": "FileSystem error. Please contact support. (code 1011)",
+        "clientNotFound": "Client App could not start. (code 1013)"
+      },
+      "core": {
+        "socketTimeout": "Neural network failed. Please contact support. (code 1101)",
+        "startProcess": "Neural network failed. Please contact support. (code 1102)",
+        "pyInitFailed": "Neural network failed. Please contact support. (code 1103)",
+        "pyNotResponding": "AI Model Failed. (code 1104)"
+      }
+    },
+    "radioactive": {
+      "background": {
+        "low": "Background too low",
+        "high": "Background too high",
+        "zero":"Background zero"
+      },
+      "gamma": {
+        "low": "Gamma count too low",
+        "high": "Gamma count too high",
+        "fluctuation": {
+          "low": "",
+          "high": "Gamma count fluctuation too high"
+        }
+      },
+      "temperature": {
+        "low": "Temperature too low",
+        "high": "Temperature too high"
+      },
+      "network": {
+        "connection": "Can't connect to radioactive port",
+        "ack": "Can't send radioactive ack"
+      },
+      "util": {
+        "fail": "Scan failed",
+        "maintenace": "maintenace required",
+        "reply":"Detecter no reply"
+      },
+      "csv": "Can not save CSV file!"
+    }
+  }
+}

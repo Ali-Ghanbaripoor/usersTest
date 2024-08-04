@@ -1,0 +1,629 @@
+{
+  "language": {
+    "language": "زبان",
+    "system": "زبان سیستم",
+    "english": "English",
+    "persian": "فارسی"
+  },
+  "alarms": {
+    "alarmsLabel": "آلارم ها و اخطار ها",
+    "unknown": "ناشناس",
+    "clear": "خالی کردن لیست"
+  },
+  "radioactive": {
+    "label": "رادیواکتیو",
+    "status": {
+      "waiting": "در حال پردازش",
+      "clean": "ایمن",
+      "moderate": "متوسط",
+      "severe": "خطر",
+      "alarm": "هشدار",
+      "idle": "آماده به کار",
+      "default": "-"
+    },
+    "powerState": {
+      "on": "روشن کردن رادیواکتیو",
+      "off": "خاموش کردن رادیواکتیو",
+      "error": "تغییر وضعیت رادیواکتیو انجام نشد. لطفاً با سرویس‌دهنده تماس بگیرید."
+    }
+  },
+  "settings": {
+    "profile": "پروفایل",
+    "dangerZone": "محدود حساس",
+    "powerOff": "خاموش کردن سیستم",
+    "powerOffDialog": {
+      "title": "خاموش کردن سیستم",
+      "content": "آیا شما مطمئن هستید که میخواهید سیستم را خاموش کنید؟"
+    },
+    "userPreferences": {
+      "title": "ترجیحات کاربر",
+      "edit": {
+        "password": {
+          "navigatedButton": "تغییر گذرواژه",
+          "title": "گذرواژه",
+          "content": "شما می‌توانید برای حساب خود گذرواژه جدید انتخاب کنید",
+          "yup": {
+            "required": {
+              "newPassword": "New password is required",
+              "confirmNewPassword": "Confirm new password is required"
+            },
+            "oneOf": "New password and its confirmation aren't match."
+          },
+          "fields": {
+            "newPassword": "Enter new password",
+            "confirmNewPassword": "Confirm new password"
+          },
+          "submit": "Update password",
+          "toasts": {
+            "success": "Password changed successfully.",
+            "error": "Password can't changed.",
+            "exists": "New password already exists.",
+            "serverIssue": "Password not send to server. Please call with service provider."
+          }
+        }
+      },
+      "systemVersion": {
+        "title": "System Version",
+        "platforms": {
+          "ai": "AI",
+          "hardware": "Hardware",
+          "reconstruction": "Reconstruction",
+          "software": "Software"
+        }
+      }
+    },
+    "logout": {
+      "error": "نمیتوان عملیات خارج شدن از حساب کاربر را انجام داد. مشکلی در سرویس دهنده رخ داده است",
+      "dialog": {
+        "title": "خروج از حساب کاربری",
+        "content": "آیا شما میخواهید از حساب کاربریتان خارج شوید؟"
+      }
+    }
+  },
+  "tableSettings": {
+    "rowsPerPage": "ردیف به ازای صفحه"
+  },
+  "errorHandler": {
+    "403": "403 | عدم دسترسی به این صفحه",
+    "404": "404 | داده ای برای این صفحه یافت نشد",
+    "500": "مشکل سمت سرویس گیرنده 500 | مشکلی پیش آمده است.",
+    "backToHome": "بازگشت به صفحه اسکن"
+  },
+  "init": {
+    "systemError": "سرویس دهنده توانایی پاسخگویی را ندارد",
+    "footer": {
+      "developerInfo": "Developed by Basir Technologies & PCI at 2023"
+    }
+  },
+  "fingerprint": {
+    "title": "Title",
+    "content": "Content",
+    "rescan": "تلاش مجدد"
+  },
+  "login": {
+    "username": "نام کاربری",
+    "password": "رمز عبور",
+    "login": "ورود",
+    "alert_message": "نام کاربری یا رمز ورود اشتباه است.",
+    "fingerprint": {
+      "fingerprintAuth": "احراز هویت با اثر انگشت",
+      "dialog": {
+        "title": "احراز هویت با اثر انگشت",
+        "content": "درحال انتظار برای اثر انگشت"
+      },
+      "serverError": "خطا در برقراری ارتباط با ماژول"
+    },
+    "userData": {
+      "error": "خطا در دسترسی به اطلاعات کاربر"
+    },
+    "loginForm": {
+      "required": {
+        "username": "وارد کردن نام کاربری الزامی است.",
+        "password": "وارد کردن رمز عبور الزامی است."
+      }
+    },
+    "wait": "سیستم در حال راه اندازی می باشد لطفا منتظر بمانید",
+    "logout": " خروج از حساب کاربری"
+  },
+  "navbar": {
+    "scan": "تصویربرداری",
+    "results": "نتایج",
+    "Radioactive": "رادیواکتیو",
+    "scannedList": "موارد اسکن شده",
+    "healthCheck": "سلامت سنجی",
+    "users": "کاربران",
+    "settings": "تنظیمات"
+  },
+  "actions": {
+    "agree": "بلی",
+    "close": "بستن",
+    "cancel": "Cancel",
+    "start": "شروع",
+    "stop": "توقف",
+    "done": "پایان",
+    "reset": "بازگردانی",
+    "tryAgain": "تلاش مجدد",
+    "save": "ذخیره سازی اطلاعات",
+    "update": "بروزرسانی اطلاعات",
+    "callToSupport": "تماس با پشتیبانی",
+    "shutDown": "خاموش کردن سیستم",
+    "reload": "تلاش مجدد"
+  },
+  "scan": {
+    "calibrationNeeded": ".خطا در شروع فرآیند. لطفا کالیبراسیون را در قسمت سلامت سنجی اجرا کنید",
+    "reScan": "اسکن مجدد",
+    "radioactive": {
+      "error": "سرور قادر به دریافت وضعیت رادیواکتیو در حال حاضر نمی‌باشد. لطفاً با سرویس‌دهنده ارتباط برقرار کنید."
+    }
+  },
+  "results": {
+    "reconstructed": "بازسازی شده",
+    "ai": "نتیجه هوش مصنوعی",
+    "error": {
+      "images": "تصاویر نتایج در دسترس نیستند"
+    },
+    "info": {
+      "empty": "تصویری برای نمایش وجود ندارد"
+    },
+    "censor": {
+      "tooltip": "نقطه سانسور شده",
+      "enableCensorButton": "فعال سازی سانسور",
+      "disableCensorButton": "غیر فعال کردن سانسور"
+    },
+    "simpleAndEnhancedSwitch": {
+      "switchToEnhanced": "نمایش تصاویر هوش مصنوعی",
+      "switchToSimple": "نمایش تصاویر ساده"
+    },
+    "resultImageFilterButton": "اعمال فیلتر"
+  },
+  "detector":{
+    "scanResultData":"دیتاهای نتیجه اسکن",
+    "fileds":"فیلدها/نام",
+    "refresh":"تازه سازی",
+    "loadCSV":"بارگیری جدول",
+    "name":{
+      "number":{
+        "one":"آشکارساز یک",
+        "two":"آشکارساز دو",
+        "three":"آشکارساز سه",
+        "four":"آشکارساز چهار"
+      }
+    },
+    "Data":{
+      "name":"دیتاهای نتیجه اسکن",
+      "detector_address":"آدرس هر آشکارساز",
+      "mean_background":"کانت زمینه متوسط",
+      "background_fluctuation":"نوسان کانت زمینه",
+      "instant_background_to_calibration_time":"نوسان کانت زمینه نسبت به کانت زمینه در زمان کالیبراسیون",
+      "processed_instant_background":"کانت زمینه پردازش شده",
+      "raw_instant_background":"کانت زمینه خام",
+      "PMT_temperature":"دما قسمت PMT",
+      "HV":"ولتاژ کاری آشکارساز",
+      "instant_MDA":"کترین مقدار گامای قبل آشکارسازی",
+      "mean_MDA":"کمترین مقدار گامای قبل آشکارسازی",
+      "MDA_flutuation":"نوسان کمترین مقدار گامای آشکارسازی"
+    },
+    "scanData":{
+      "name":"دیتای اسکن",
+      "background_CPS":"کانت زمینه(قبل از شروع اسکن)",
+      "scan_CPS":"کانت متوسط در هنگام اسکن",
+      "temperature":"دمای دستگاه",
+      "CPS_fluctuation":"بیشترین نوسان کانت در هنگام اسکن",
+      "packet_ID":"شماره انحصاری اختصاص داده شده به هر اسکن توسط آشکارساز"
+    },
+    "MDA_data":{
+      "name":"دیتای MDA",
+      "scan_MDA":"MDA",
+      "scan_MDA_Fluctuation":"نوسان MDA"
+    },
+    "statusData":{
+      "name":"وضعیت آشکارسازها",
+      "detector0":"آشکارساز 0",
+      "detector1":"آشکارساز 1",
+      "detector2":"آشکارساز 2",
+      "detector3":"آشکارساز 3"
+    },
+    "backgroundData":{
+      "name":"دیتای کانت زمینه",
+      "total_MDA_fluctuation":"تجمیع نوسان MDA",
+      "total_instant_MDA":"تجمیع MDA"
+    }
+  },
+  "resultImageFilter": {
+    "back": "بازگشت به صفحه نتایج",
+    "filterButtonLabel": "انجام فیلتر بر روی نقاط انتخاب شده",
+    "clearButtonLabel": "دوباره فیلتر را انجام دهید",
+    "filterRequestError": "خطا در اعمال فیلتر بر تصویر"
+  },
+  "scannedList": {
+    "table": {
+      "title": "Scanned List",
+      "row": "Row",
+      "threat": "Threat",
+      "gender": "Gender",
+      "imagePath": "Image",
+      "personalCode": "Personnel code",
+      "role": "Role",
+      "processResult": "Process result",
+      "username": "Username",
+      "deletedAt": "Deleted at",
+      "createdAt": "Created at"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "threat": {
+      "safe": "Safe",
+      "threat": "Threat"
+    },
+    "process": {
+      "success": "Successful",
+      "failed": "Failed"
+    },
+    "data": {
+      "empty": "Scanned list is empty.",
+      "serverError": "Server error during fetch data."
+    }
+  },
+  "health_check": {
+    "systemCapacities": "وضعیت سیستم ",
+    "systemCapacitiesSubhead": "",
+    "capacities": {
+      "disk_space": "فضای دیسک",
+      "img_quality": "کیفیت تصویر"
+    },
+    "specifications": {
+      "na": "تعریف نشده",
+      "refresh": "نیازمند تازه سازی",
+      "medium": "متوسط",
+      "healthy": "سالم"
+    },
+    "capacitiesError": ".وضعیت دستگاه دریافت نشد",
+    "calibrationsResult": {
+      "success": {
+        "calibration": "کالیبراسیون با موفقیت انجام شد",
+        "clutter": "عملیات حذف نویز با موفقیت انجام شد",
+        "homingMotor": "عملیات همگام سازی موتور با موفقیت انجام شد"
+      },
+      "failure": "سرویس قادر به انجام تازه سازی و کالیبراسیون سایتنس نیست",
+      "out": "سرویس دهنده پاسخگو نیست"
+    },
+    "calibrations": {
+      "calibration": {
+        "button": "کالیبراسیون",
+        "headline": "کالیبراسیون",
+        "subhead": "کالیبراسیون سیستمی",
+        "dialog": {
+          "title": "کالیبراسیون سیستم",
+          "content": "آیا مطمئن هستید که می خواهید کالیبراسیون انجام دهید؟"
+        }
+      },
+      "airCalibration": {
+        "dialog": {
+          "title": "کالیبراسیون با فضای خالی",
+          "content": "لطفا تخته چوبی را از دستگاه خارج کنید"
+        }
+      },
+      "metalCalibration": {
+        "dialog": {
+          "title": "کالیبراسیون با استوانه فلزی",
+          "content": "لطفا تخته چوبی را خارج کرده و استوانه فلزی را روی علامت مشخص شده در کف دستگاه قرار دهید."
+        }
+      },
+      "clutter": {
+        "button": "حذف نویز",
+        "headline": "حذف نویز",
+        "subhead": "لطفا تخته چوبی را در دستگاه قرار دهید و از دستگاه فاصله بگیرید.",
+        "dialog": {
+          "title": "حذف نویز",
+          "content": "آیا مطمئن هستید که می خواهید حذف نویز انجام دهید؟"
+        }
+      },
+      "homingMotor": {
+        "button": "همگام سازی موتور",
+        "headline": "همگام سازی موتور",
+        "subhead": "",
+        "dialog": {
+          "title": "همگام سازی",
+          "content": "آیا مطمئن هستید که می خواهید همگام سازی موتور انجام دهید؟"
+        }
+      }
+    }
+  },
+  "gender": {
+    "man": "اسکن مرد",
+    "woman": "اسکن زن",
+    "select": {
+      "selectGender": "نوع جنسیت اسکن",
+      "man": "نمایش کلید مرد",
+      "woman": "نمایش کلید زن",
+      "both": "نمایش هر دو کلید"
+    }
+  },
+  "passwordBox": {
+    "confirm": "تایید",
+    "cancel": "لغو"
+  },
+  "keyboard": {
+    "ok": "باشه"
+  },
+  "usersView": {
+    "empty": "کاربر دیگری در سیستم وجود ندارد",
+    "fetchError": "سیستم قادر به دریافت داده از سرویس دهنده نیست. لطفا سمت سرویس دهنده را بررسی کنید",
+    "preparation": {
+      "fetchError": "برنامه قادر به دریافت لیست کاربران از سرویس دهنده نیست."
+    },
+    "removal": {
+      "success": "کاربر با موفقیت حذف شد",
+      "failed": "عملیات حذف کاربر با شکست مواجه شد لطفا در سمت سرویس دهنده آن را بررسی کنید"
+    },
+    "fab": {
+      "userAdd": "ساخت کاربر جدید"
+    },
+    "deleteDialog": {
+      "title": "حذف کاربر از سیستم",
+      "content": "آیا شما از حذف این کاربر اطمینان دارید؟"
+    },
+    "tooltips": {
+      "deleteUser": "حذف کاربر",
+      "userDetails": "مشاهده و ویرایش کاربر"
+    },
+    "fingerprint": {
+      "scanFingerprint": "ثبت اثر انگشت",
+      "add": "ثبت اثر انگشت جدید",
+      "change": "تغییر اثر انگشت ثبت شده",
+      "successfulRegister": "اثر انگشت شما با موفقیت ثبت شد.",
+      "removeTooltipLabel": "حذف اثر انگشت",
+      "registerTooltipLabel": "ثبت اثر انگشت",
+      "changeTooltipLabel": "تغییر اثر انگشت",
+      "deleteFingersDialog": {
+        "title": "حذف اثر انگشت",
+        "content": "آیا مطمئن هستید که می خواهید اثر انگشت این کاربر را حذف کنید؟."
+      },
+      "removeFingers": {
+        "success": "اثر انگشت با موفقیت حذف شد.",
+        "failed": "خطا در حذف اثر انگشت",
+        "serverError": "خطا در ارتباط با ماژول"
+      }
+    }
+  },
+  "usersTable": {
+    "title": "کاربران",
+    "row": "ردیف",
+    "firstName": "نام",
+    "lastName": "نام خانوادگی",
+    "role": "نقش",
+    "username": "نام کاربری",
+    "phone": "تلفن",
+    "createdAt": "ایجاد شده در",
+    "lastUpdate": "آخرین به روزرسانی در",
+    "actions": "عملیات"
+  },
+  "userModifications": {
+    "userForm": {
+      "f_name": "نام",
+      "l_name": "نام خانوادگی",
+      "username": "نام کاربری",
+      "password": "گذرواژه",
+      "email": "ایمیل",
+      "phone": "شماره تلفن",
+      "national_code": "کد ملی",
+      "personal_code": "کد پرنسلی",
+      "rolesLabel": "نقش ها",
+      "regex": {
+        "email": "شما باید یک ایمیل معتبر وارد کنید. مانند: example@sightence.com",
+        "phone": "شما باید یک شماره تلفن معتبر وارد کنید. مانند: 09123456789"
+      },
+      "roles": {
+        "superuser": "مدیریت",
+        "admin": "ادمین",
+        "staff": "کاربر عادی",
+        "errors": {
+          "fetchError": "تلاش ناموفق برای دریافت نقش کاربران"
+        }
+      },
+      "formValidations": {
+        "required": "پر کردن این فیلد اجباری است",
+        "fName": {
+          "max": "حداکثر تعداد کاراکتر مجاز 30 است"
+        },
+        "lName": {
+          "max": "حداکثر تعداد کاراکتر مجاز 30 است"
+        },
+        "username": {
+          "max": "حداکثر تعداد کاراکتر مجاز 32 است"
+        },
+        "password": {
+          "max": "حداکثر تعداد کاراکتر مجاز 16 است"
+        },
+        "email": {
+          "max": "حداکثر تعداد کاراکتر مجاز 100 است",
+          "regex": "ایمیل وارد شده باید در فرمت ایمیل رو به رو باشد: example@service.com"
+        },
+        "phone": {
+          "max": "حداکثر تعداد کاراکتر مجاز 13 است",
+          "regex": "شماره تلفن وارد شده باید در فرمت شماره تلفن رو به رو باشد: ۰۹۱۲۳۴۵۶۷۸۹"
+        },
+        "nationalCode": {
+          "max": "حداکثر تعداد کاراکتر مجاز 10 است"
+        },
+        "personalCode": {
+          "max": "حداکثر تعداد کاراکتر مجاز 12 است"
+        }
+      },
+      "dialog": {
+        "title": "کاربر ایجاد شد",
+        "content": "شما یک کاربر جدید اضافه کردید. آیا میخواهید کاربر دیگری نیز اضافه کنید؟"
+      },
+      "duplicatedLabel": "مقدار فیلد تکراری است",
+      "duplicatedInfo": "مقدار این فیلد در سامانه موجود است. لطفا از اطلاعات جدید استفاده کنید",
+      "register": {
+        "success": "شما یک کاربر جدید را اضافه کردید."
+      },
+      "update": {
+        "success": "اطلاعات کاربر با موفقیت به روز رسانی شد"
+      },
+      "errors": {
+        "format": {
+          "national": "قالب کد ملی صحیح نیست.",
+          "phone": "قالب شماره موبایل صحیح نیست.",
+          "email": "قالب ایمیل صحیح نیست."
+        },
+        "duplication": {
+          "username": "نام کاربری تکراری است.",
+          "email": "آدرس ایمیل تکراری است.",
+          "nationalCode": "شناسه ملی تکراری است.",
+          "personalCode": "شناسه پرسنلی تکراری است.",
+          "phone": "شماره تلفن موبایل تکراری است."
+        }
+      }
+    }
+  },
+  "errors": {
+    "systemError": {
+      "calibration": {
+        "stability": {
+          "sectionStability1": "کیفیت کالیبراسیون پایین است. لطفا فرآیند کالیبراسیون را انجام دهید. (کد 101)",
+          "sectionStability2": "کیفیت کالیبراسیون پایین است. لطفا فرآیند کالیبراسیون را انجام دهید. (کد 102)",
+          "sectionStability3": "کیفیت کالیبراسیون پایین است. لطفا فرآیند کالیبراسیون را انجام دهید. (کد 103)"
+        },
+        "depth": {
+          "sectionDepth1": "کیفیت کالیبراسیون پایین است. لطفا فرآیند کالیبراسیون را انجام دهید. (کد 104)",
+          "sectionDepth2": "کیفیت کالیبراسیون پایین است. لطفا فرآیند کالیبراسیون را انجام دهید. (کد 105)",
+          "sectionDepth3": "کیفیت کالیبراسیون پایین است. لطفا فرآیند کالیبراسیون را انجام دهید. (کد 106)"
+        },
+        "date": {
+          "outDated": "کالیبراسیون منقضی شده است. لطفا فرآیند کالیبراسیون را انجام دهید. (کد 107)"
+        },
+        "imgQuality": {
+          "badImg": "کیفیت تصویر پایین است. لطفا فرآیند کالیبراسیون را انجام دهید. (کد 401)"
+        }
+      },
+      "clutter": {
+        "clutterQualitySection1": "نویز پس زمینه زیاد است. لطفا فرآیند حذف نویز را انجام دهید. (کد 201)",
+        "clutterQualitySection2": "نویز پس زمینه زیاد است. لطفا فرآیند حذف نویز را انجام دهید. (کد 202)",
+        "clutterQualitySection3": "نویز پس زمینه زیاد است. لطفا فرآیند حذف نویز را انجام دهید. (کد 203)"
+      },
+      "section": {
+        "powerSection1": "خطای سخت افزاری. لطفا با پشتیبانی تماس بگیرید. (کد 301)",
+        "powerSection2": "خطای سخت افزاری. لطفا با پشتیبانی تماس بگیرید. (کد 302)",
+        "powerSection3": "خطای سخت افزاری. لطفا با پشتیبانی تماس بگیرید. (کد 303)"
+      },
+      "position": {
+        "postureViolated": "نحوه ایستادن در دستگاه صحیح نیست. لطفا مجددا تصویربرداری کنید. (کد 501)"
+      },
+      "motor": {
+        "motorHoming": "لطفا فرآیند همگام سازی موتور را انجام دهید. (کد 601)",
+        "disconnection": "دکمه اضطزازی فعال است. (کد 602)"
+      },
+      "disk": {
+        "diskLimit": "دیسک پر شده است. لطفا با پشتیبانی تماس بگیرید. (کد 701)"
+      },
+      "auth": {
+        "authFailed": "نام کاربری یا رمز عبور اشتباه است. (کد 1201)",
+        "expToken": "توکن منقضی شده است. (کد 1202)",
+        "reqToken": "این عملیات نیازمند توکن است. (کد 1203)",
+        "InvToken": "توکن نامعتبر است. (کد 1204)",
+        "AccessDenied": "غیرقابل دسترسی (کد 1205)",
+        "fingerprint": {
+          "unAuthorized": "اثر انگشت پیدا نشد. (کد 1301)",
+          "timeout": "درخواست منقضی شد. (کد 1302)",
+          "failed": "خطایی پیش آمد. (کد 1304)",
+          "register": {
+            "databaseOverflow": "پایگاه داده پر است. لطفا اثر انگشت یک کاربر را حذف کنید. (کد 1303)"
+          }
+        }
+      }
+    },
+    "exception": {
+      "baseErrors": {
+        "coreCrash": "سیستم با مشکل مواجه شد. (کد 1)",
+        "badRequest": "درخواست نامعتبر.(کد 2)",
+        "healthCheck": "داده برسی سلامت در دسترس نیست.(کد 3)",
+        "resultImage": "نتیجه تصویر برداری در دسترس نیست.(کد 4)",
+        "passwordChange": "تغییر رمز انجام نشد. (کد 5)"
+      },
+      "hardwareDisconnect": {
+        "initConnection": "اشکال در برقراری ارتباط با سخت افزار. لطفا با پشتیبانی تماس بگیرید. (کد 801)",
+        "packetLoss": "اشکال در برقراری ارتباط با سخت افزار. لطفا با پشتیبانی تماس بگیرید. (کد 802)",
+        "sendingCmdFailed": "اشکال در برقراری ارتباط با سخت افزار. لطفا با پشتیبانی تماس بگیرید. (کد 803)",
+        "receivingCmdFailed": "اشکال در برقراری ارتباط با سخت افزار. لطفا با پشتیبانی تماس بگیرید. (کد 804)",
+        "invalidBuffer": "اشکال در برقراری ارتباط با سخت افزار. لطفا با پشتیبانی تماس بگیرید. (کد 805)",
+        "simulatorFailed": "اشکال در برقراری ارتباط با سخت افزار. لطفا با پشتیبانی تماس بگیرید. (کد 806)",
+        "ACPowerInitFailed": "اشکال در برقراری ارتباط با سخت افزار. لطفا با پشتیبانی تماس بگیرید. (کد 807)",
+        "ACPowerCmdFailed": "اشکال در برقراری ارتباط با سخت افزار. لطفا با پشتیبانی تماس بگیرید. (کد 808)",
+        "fingerprint": "ماژول اثر انگشت پاسخگو نیست. (کد 809)"
+      },
+      "memory": {
+        "initDll": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 901)",
+        "nnInput": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 902)",
+        "maskNetwork": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 903)",
+        "maskReduction": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 904)",
+        "pytorchRes": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 905)",
+        "healthMetrics": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 906)",
+        "startThread": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 907)",
+        "reconstruct": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 908)",
+        "fetchReconstructed": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 909)",
+        "memBlock": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 910)",
+        "imgMetrics": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 911)",
+        "secMetrics": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 912)",
+        "gpuDispose": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 913)",
+        "directBitmap": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 914)",
+        "censorApply": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 915)",
+        "processCalibration": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 916)",
+        "getCalibrationMetrics": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 917)",
+        "poseEstimationNetwork": "اشکال در حافظه. لطفا با پشتیبانی تماس بگیرید. (کد 918)"
+      },
+      "fileSystem": {
+        "readCalibrationOrClutter": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1001)",
+        "ldAIModel": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1002)",
+        "mkDir": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1003)",
+        "mkLogFile": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1004)",
+        "dllHeaders": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1005)",
+        "diskImageSave": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1006)",
+        "cpFile": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1007)",
+        "wrFaultRates": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1008)",
+        "readClutterMetrics": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1009)",
+        "wrSectionMetrics": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1010)",
+        "saveHolo": "اشکال در فایل. لطفا با پشتیبانی تماس بگیرید. (کد 1011)",
+        "clientNotFound": "برنامه سمت کاربر پیدا نشد (کد 1013)"
+      },
+      "core": {
+        "socketTimeout": "اشکال در شبکه عصبی. لطفا با پشتیبانی تماس بگیرید. (کد 1101)",
+        "startProcess": "اشکال در شبکه عصبی. لطفا با پشتیبانی تماس بگیرید. (کد 1102)",
+        "pyInitFailed": "اشکال در شبکه عصبی. لطفا با پشتیبانی تماس بگیرید. (کد 1103)",
+        "pyNotResponding": "مدل هوش مصنوعی با مشکل مواجه شد(کد 1104)"
+      }
+    },
+    "radioactive": {
+      "background": {
+        "zero": "کانت زمینه صفر است",
+        "low": "کانت زمینه پایین تر از حد معمول است",
+        "high": "کانت زمینه بالاتر از حد معمول است"
+      },
+      "gamma": {
+        "low": "کانت پایین تر از حد معمول است",
+        "high": "کانت بالاتر از حد معمول است",
+        "fluctuation": {
+          "low": "",
+          "high": "نوسان کانت زمینه بیشتر از حد معمول است"
+        }
+      },
+      "temperature": {
+        "low": "دما پایین تر از حد مجاز است",
+        "high": "دما بالاتر از حد مجاز است"
+      },
+      "network": {
+        "connection": "Can't connect to radioactive port",
+        "ack": "Can't send radioactive ack"
+      },
+      "util": {
+        "fail": "عملیات اسکن موفقیت آمیز نبود",
+        "maintenace": "دتکتور نیاز به تعمیر دارد",
+        "reply": "پاسخی از دتکتور دریافت نمیشود"
+      },
+      "csv": "Can not save CSV file!"
+    }
+  }
+}
